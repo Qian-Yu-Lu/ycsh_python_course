@@ -1,5 +1,5 @@
-h = float input("請輸入身高")
-w = float input("請輸入身高")
+h = float (input("請輸入身高"))
+w = float (input("請輸入身高"))
 
 h = h/100.0
 bmi = w/h**2
