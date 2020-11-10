@@ -1,0 +1,10 @@
+cell_1 ='x'
+cell_2 ='x'
+cell_3 ='O'
+cell_4 =' '
+cell_5 ='O'
+cell_6 =' '
+cell_7 ='x'
+cell_8 =' '
+cell_9 =' '
+print (cell_1,cell_2,' ')
