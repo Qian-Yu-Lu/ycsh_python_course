@@ -2,8 +2,25 @@
 # 提示使用者輸入一整數，判斷此數字為奇數或偶數。
 # 若為奇數，顯示 '是奇數' ，反之顯示 '是偶數' 。
 
-x= int(input("請輸入數字:"))
-if x % 2 == 0 :
-    print("是偶數")
+ x = int(input('請輸入數字:'))
+
+if x % 2 == 0:
+    if x > 0:
+        print('正偶數')
+    elif x == 0:
+        print('偶數')
+    else:
+        print('負偶數')
 else:
-    print("是奇數")    
+    if x > 0:
+        print('正奇數')
+    else:
+        print('負奇數')
+
+
+if x % 2 == 0 and x > 0:
+    print('正偶數')
+elif x % 2 == 0 and x == 0:
+    print('偶數')
+elif x % 2 == 0 and x < 0:
+    print('負偶數')
