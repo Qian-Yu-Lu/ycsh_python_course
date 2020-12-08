@@ -7,10 +7,23 @@ c = float(input())
 
 
 if d > c:
-     c, d = d, c
+     c_ = c
+     c = d
+     d = c
 if c > d:
      b, c = c, b
 if b > a:
      a, b = b, a
 
 if d > c:
+    c, d = d, c
+if c >b:
+    b, c = c, b
+
+if d > c:
+    c, d = d, c
+
+print(a)
+print(b)
+print(c)
+print(d)
