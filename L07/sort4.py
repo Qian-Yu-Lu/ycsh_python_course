@@ -4,20 +4,20 @@
 a = float(input())
 b = float(input())
 c = float(input())
-
+d = float(input())
 
 if d > c:
-     c_ = c
-     c = d
-     d = c
-if c > d:
-     b, c = c, b
+    c_ = c
+    c = d
+    d = c_
+if c > b:
+    b, c = c, b
 if b > a:
-     a, b = b, a
+    a, b = b, a
 
 if d > c:
     c, d = d, c
-if c >b:
+if c > b:
     b, c = c, b
 
 if d > c:
