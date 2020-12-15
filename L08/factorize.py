@@ -1,4 +1,4 @@
-x = 12
+x = int(input("請輸入數字"))
 
 while x > 1:
     for i in range( 2, x+1 ):
