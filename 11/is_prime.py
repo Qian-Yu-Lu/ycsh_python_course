@@ -1,4 +1,4 @@
-n = int(input())
+x = int(input('請輸入數字'))
 
 is_prime = False
 
