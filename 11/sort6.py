@@ -13,11 +13,11 @@ while i < 6:
     elif e > d :
         e,d = d,e
     elif d > c :
-        c,d = d,c
+        d,c = c,d
     elif c > b :
-        b,c = c,b
+        c,b = b,c
     elif b > a:
-        a,b = b,a 
+        b,a = a,b
     i = i + 1
 
 print(a)
